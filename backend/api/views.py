@@ -48,7 +48,7 @@ def test_update_about_success(self, mock_collection):
     mock_collection.insert_one.return_value.inserted_id = "abc123"
 
     valid_data = {
-        "name": "Jane Doe",
+        "name": "Andrew D",
         "title": "Developer",
         "bio": "Loves Python and Docker",
         "skills": ["Python", "React"]
